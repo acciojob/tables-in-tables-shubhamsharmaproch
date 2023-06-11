@@ -5,10 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table</title>
     <link rel="stylesheet" href="style.css" />
+	  <style>
+		  table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+		  </style> 
   </head>
+	
   <body>
-    <table style="width: 100%; height: 100%">
-      <!-- Your code here -->
+    <table style="width: 100%; height: 100%" border="1px">
+      <table border="2px" width="200" height="50">
+		  <th>Nested Table 2</th>
+		  <tr>
+		  <th>Column 1</th> 
+	      <th>Column 2</th> </tr>
+		  <tr>
+			  <td>abc</td>
+			  <td>def</td>
+		  </tr>
+	  </table>
+		<table border="2px" width="250" height="50">
+		 <th>Nested Table 3</th>
+		  <tr>
+		  <td><a herf="http//:table.com">Nested Table</a></th> 
+	      <td>Demo Continued</td> </tr>
+		</table>
+	    <table border="2px" width="250" height="50">
+			<th>Nested Table 1</th>
+			<tr>
+				<td><ul> <li>List item</li>
+					<li>List item</li>
+					<li>List item</li>
+				</ul> </tr>
+		</table>
+		<table border="2px" > 
+			<th>Nested Table 4</th>
+			<tr>
+				<td style="background-color:black;color:white" >HTML</td>
+			</tr>
+		</table>
     </table>
   </body>
 </html>
